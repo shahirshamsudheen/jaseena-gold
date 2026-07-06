@@ -58,13 +58,13 @@ export default function Header() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="flex items-center justify-between h-20 lg:h-24">
             {/* Wordmark / Logo */}
-            <Link href="/" className="flex flex-col items-start min-h-0" aria-label="Jaseena Gold & Diamonds, Home">
+            <Link href="/" className="flex items-center justify-center h-full py-2 lg:py-3" aria-label="Jaseena Gold & Diamonds, Home">
               <Image 
                 src="/images/logo.jpg" 
                 alt="Jaseena Gold & Diamonds"
                 width={240} 
                 height={240}
-                className="w-auto h-24 lg:h-32"
+                className="w-auto h-full object-contain"
                 priority
               />
             </Link>
