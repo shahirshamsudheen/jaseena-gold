@@ -8,7 +8,7 @@ import ProductCard from "./_components/ProductCard";
 import { categories, getFeaturedProducts, journalArticles, stores } from "./_lib/data";
 
 /**
- * HOME PAGE — Jaseena Gold & Diamonds
+ * HOME PAGE, Jaseena Gold & Diamonds
  *
  * Sections:
  * 1. Full-bleed hero with heritage tagline
@@ -48,7 +48,7 @@ export default function HomePage() {
             <SectionDivider />
             <p className="text-muted font-body text-lg leading-relaxed max-w-2xl mx-auto">
               Founded by Abdul Basheer in Kallara, Thiruvananthapuram, Jaseena Gold & Diamonds
-              began as a single family shop built on a simple promise — that the gold you take home
+              began as a single family shop built on a simple promise, that the gold you take home
               is worthy of the trust you place in us. Today, his son Abdul Raheem carries that
               promise forward.
             </p>
@@ -86,7 +86,7 @@ export default function HomePage() {
               <div className="relative aspect-[4/5] rounded-sm overflow-hidden">
                 <Image
                   src="/images/heritage-craftsman.png" // [PLACEHOLDER IMAGE]
-                  alt="Master craftsman at work — heritage goldsmithing"
+                  alt="Master craftsman at work, heritage goldsmithing"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
@@ -169,7 +169,7 @@ export default function HomePage() {
                 </h2>
                 <hr className="block h-px border-none bg-warm-gold w-16 my-6" aria-hidden="true" />
                 <p className="text-muted font-body leading-relaxed mb-4">
-                  Both our stores are in the heart of Kallara, Thiruvananthapuram — where it all
+                  Both our stores are in the heart of Kallara, Thiruvananthapuram, where it all
                   began. Walk in, take your time. There is no rush here.
                 </p>
                 {stores.map((store) => (
@@ -264,7 +264,7 @@ export default function HomePage() {
             <hr className="block h-px border-none bg-warm-gold w-16 mx-auto my-6" aria-hidden="true" />
             <p className="text-ivory/70 font-body leading-relaxed mb-8">
               Whether you are choosing a piece for a special occasion or simply browsing,
-              our doors — and our story — are open to you.
+              our doors, and our story, are open to you.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact" className="btn-accent">

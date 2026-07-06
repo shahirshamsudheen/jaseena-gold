@@ -24,10 +24,10 @@ interface HeroBannerProps {
 }
 
 /**
- * HeroBanner — Full-bleed hero with overlay text.
+ * HeroBanner, Full-bleed hero with overlay text.
  * Used on homepage and major landing pages.
  *
- * [PLACEHOLDER IMAGE] — Hero image to be replaced with real photography.
+ * [PLACEHOLDER IMAGE], Hero image to be replaced with real photography.
  */
 export default function HeroBanner({
   image,
@@ -52,7 +52,7 @@ export default function HeroBanner({
       {/* Background Image */}
       <Image
         src={image}
-        alt="" // Decorative — content is in the text overlay
+        alt="" // Decorative, content is in the text overlay
         fill
         className="object-cover"
         priority

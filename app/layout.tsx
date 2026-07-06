@@ -5,7 +5,7 @@ import Header from "./_components/Header";
 import Footer from "./_components/Footer";
 
 /**
- * Cormorant Garamond — Display / Headlines
+ * Cormorant Garamond, Display / Headlines
  * Weights: 300 (italic leads), 500 (headlines)
  */
 const cormorant = Cormorant_Garamond({
@@ -17,7 +17,7 @@ const cormorant = Cormorant_Garamond({
 });
 
 /**
- * Jost — Body / UI / Labels
+ * Jost, Body / UI / Labels
  * Weight: 300 (body), 400, 500 (labels/kickers)
  */
 const jost = Jost({
@@ -29,11 +29,11 @@ const jost = Jost({
 
 export const metadata: Metadata = {
   title: {
-    default: "Jaseena Gold & Diamonds — Gold That Keeps Its Word",
+    default: "Jaseena Gold & Diamonds, Gold That Keeps Its Word",
     template: "%s | Jaseena Gold & Diamonds",
   },
   description:
-    "Heritage jewellery house since 1975 in Kallara, Thiruvananthapuram. Crafted gold and diamond jewellery — entrusted by families across Kerala.",
+    "Heritage jewellery house since 1975 in Kallara, Thiruvananthapuram. Crafted gold and diamond jewellery, entrusted by families across Kerala.",
   keywords: [
     "Jaseena Gold",
     "Gold Jewellery Kerala",
@@ -44,15 +44,15 @@ export const metadata: Metadata = {
     "22K Gold",
     "Bridal Jewellery Kerala",
   ],
-  /* [PLACEHOLDER] — Update with real domain when secured */
+  /* [PLACEHOLDER], Update with real domain when secured */
   metadataBase: new URL("https://jaseenagold.com"),
   openGraph: {
-    title: "Jaseena Gold & Diamonds — Gold That Keeps Its Word",
+    title: "Jaseena Gold & Diamonds, Gold That Keeps Its Word",
     description:
       "Heritage jewellery house since 1975. Crafted gold and diamond collections from Kallara, Kerala.",
     type: "website",
     locale: "en_IN",
-    /* [PLACEHOLDER] — Update with real domain */
+    /* [PLACEHOLDER], Update with real domain */
     url: "https://jaseenagold.com",
     siteName: "Jaseena Gold & Diamonds",
   },

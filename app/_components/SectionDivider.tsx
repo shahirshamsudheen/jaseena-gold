@@ -1,10 +1,10 @@
 /**
- * SectionDivider — The recurring gold rule motif.
+ * SectionDivider, The recurring gold rule motif.
  * A thin gold horizontal line used sparingly as a section separator.
  */
 
 interface SectionDividerProps {
-  /** "center" | "left" — alignment of the rule */
+  /** "center" | "left", alignment of the rule */
   align?: "center" | "left";
   /** Width variant */
   width?: "narrow" | "wide";

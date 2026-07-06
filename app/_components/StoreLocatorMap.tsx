@@ -5,10 +5,10 @@ interface StoreLocatorMapProps {
 }
 
 /**
- * StoreLocatorMap — Store info card with map placeholder.
+ * StoreLocatorMap, Store info card with map placeholder.
  *
- * [PLACEHOLDER] — Google Maps embed URL to be added when confirmed.
- * [PLACEHOLDER CONTACT] — Phone, email, hours to be confirmed by client.
+ * [PLACEHOLDER], Google Maps embed URL to be added when confirmed.
+ * [PLACEHOLDER CONTACT], Phone, email, hours to be confirmed by client.
  */
 export default function StoreLocatorMap({ store }: StoreLocatorMapProps) {
   return (
@@ -48,7 +48,7 @@ export default function StoreLocatorMap({ store }: StoreLocatorMapProps) {
               Map will be available soon
             </p>
             <p className="text-muted/60 text-xs font-body mt-1">
-              {/* [PLACEHOLDER] — Google Maps embed to be added */}
+              {/* [PLACEHOLDER], Google Maps embed to be added */}
               Google Maps embed coming soon
             </p>
           </div>
@@ -112,7 +112,7 @@ export default function StoreLocatorMap({ store }: StoreLocatorMapProps) {
           >
             Get Directions
           </a>
-          {/* [PLACEHOLDER] — WhatsApp number TBC */}
+          {/* [PLACEHOLDER], WhatsApp number TBC */}
           <a
             href={`https://wa.me/${store.phone.replace(/[^0-9]/g, "")}`}
             target="_blank"

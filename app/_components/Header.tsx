@@ -7,10 +7,10 @@ import { motion, AnimatePresence } from "framer-motion";
 import { navigation } from "../_lib/data";
 
 /**
- * Header — Sticky navigation with text-based wordmark.
+ * Header, Sticky navigation with text-based wordmark.
  *
  * - Text wordmark: "JASEENA" + "GOLD & DIAMONDS" in Cormorant Garamond
- *   [PLACEHOLDER] — Replace with real logo when vector file is available
+ *   [PLACEHOLDER], Replace with real logo when vector file is available
  * - Desktop: horizontal nav
  * - Mobile: hamburger with slide-out drawer
  * - Transparent → solid background on scroll
@@ -57,8 +57,8 @@ export default function Header() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="flex items-center justify-between h-20 lg:h-24">
             {/* Wordmark / Logo */}
-            <Link href="/" className="flex flex-col items-start min-h-0" aria-label="Jaseena Gold & Diamonds — Home">
-              {/* [PLACEHOLDER LOGO] — Replace with real logo vector when available */}
+            <Link href="/" className="flex flex-col items-start min-h-0" aria-label="Jaseena Gold & Diamonds, Home">
+              {/* [PLACEHOLDER LOGO], Replace with real logo vector when available */}
               <span className="font-display text-ivory text-2xl lg:text-3xl font-medium tracking-wide leading-none">
                 JASEENA
               </span>

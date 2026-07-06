@@ -1,13 +1,13 @@
 /**
- * Jaseena Gold & Diamonds — Placeholder Data
+ * Jaseena Gold & Diamonds, Placeholder Data
  *
  * All data in this file is PLACEHOLDER content matching the brand voice.
  * To be replaced with real product data, contact info, and photography.
  *
  * PLACEHOLDER markers:
- * - [PLACEHOLDER IMAGE] — swap with real photography
- * - [PLACEHOLDER CONTACT] — to be confirmed by client
- * - [PLACEHOLDER PRODUCT] — replace with real catalog data
+ * - [PLACEHOLDER IMAGE], swap with real photography
+ * - [PLACEHOLDER CONTACT], to be confirmed by client
+ * - [PLACEHOLDER PRODUCT], replace with real catalog data
  */
 
 import type { Product, Category, Store, JournalArticle, NavItem } from "./types";
@@ -41,7 +41,7 @@ export const categories: Category[] = [
     name: "Diamond Jewellery",
     slug: "diamond-jewellery",
     description:
-      "Diamonds chosen for brilliance and set with precision — each piece a quiet statement of elegance.",
+      "Diamonds chosen for brilliance and set with precision, each piece a quiet statement of elegance.",
     image: "/images/category-diamonds.png", // [PLACEHOLDER IMAGE]
     productCount: 18,
   },
@@ -68,14 +68,14 @@ export const categories: Category[] = [
     name: "Daily Wear",
     slug: "daily-wear",
     description:
-      "Understated gold for every day — pieces that belong with you, morning to night.",
+      "Understated gold for every day, pieces that belong with you, morning to night.",
     image: "/images/category-daily.png", // [PLACEHOLDER IMAGE]
     productCount: 30,
   },
 ];
 
 // ─── Products ─────────────────────────────────────────────────
-// [PLACEHOLDER PRODUCT] — All products below are placeholders
+// [PLACEHOLDER PRODUCT], All products below are placeholders
 
 export const products: Product[] = [
   // Gold Jewellery
@@ -102,7 +102,7 @@ export const products: Product[] = [
     category: "gold-jewellery",
     images: ["/images/category-gold.png"], // [PLACEHOLDER IMAGE]
     description:
-      "A classic 22K gold chain with a timeless rope design — a piece of quiet confidence for everyday wear.",
+      "A classic 22K gold chain with a timeless rope design, a piece of quiet confidence for everyday wear.",
     karat: "22K",
     purity: "916 Hallmark",
     weight: "approx. 28g",
@@ -146,7 +146,7 @@ export const products: Product[] = [
     category: "diamond-jewellery",
     images: ["/images/category-diamonds.png"], // [PLACEHOLDER IMAGE]
     description:
-      "A single brilliant-cut diamond suspended from an 18K white gold chain — understated luminance for considered occasions.",
+      "A single brilliant-cut diamond suspended from an 18K white gold chain, understated luminance for considered occasions.",
     karat: "18K",
     purity: "750 Hallmark",
     priceOnRequest: true,
@@ -161,7 +161,7 @@ export const products: Product[] = [
     category: "diamond-jewellery",
     images: ["/images/category-diamonds.png"], // [PLACEHOLDER IMAGE]
     description:
-      "A continuous line of emerald-cut diamonds set in 18K gold — precision and grace in equal measure.",
+      "A continuous line of emerald-cut diamonds set in 18K gold, precision and grace in equal measure.",
     karat: "18K",
     purity: "750 Hallmark",
     priceOnRequest: true,
@@ -188,7 +188,7 @@ export const products: Product[] = [
     category: "bridal",
     images: ["/images/category-bridal.png"], // [PLACEHOLDER IMAGE]
     description:
-      "A complete bridal ensemble — necklace, earrings, and maang tikka — crafted in 22K gold with uncut diamonds and precious stones.",
+      "A complete bridal ensemble, necklace, earrings, and maang tikka, crafted in 22K gold with uncut diamonds and precious stones.",
     karat: "22K",
     purity: "916 Hallmark",
     priceOnRequest: true,
@@ -245,7 +245,7 @@ export const products: Product[] = [
     category: "daily-wear",
     images: ["/images/category-daily.png"], // [PLACEHOLDER IMAGE]
     description:
-      "A fine 22K gold chain designed for those who prefer gold that speaks quietly — weightless, warm, and always appropriate.",
+      "A fine 22K gold chain designed for those who prefer gold that speaks quietly, weightless, warm, and always appropriate.",
     karat: "22K",
     purity: "916 Hallmark",
     weight: "approx. 8g",
@@ -259,7 +259,7 @@ export const products: Product[] = [
     category: "daily-wear",
     images: ["/images/category-daily.png"], // [PLACEHOLDER IMAGE]
     description:
-      "Simple, perfectly proportioned gold stud earrings in 22K — the foundation of any jewellery collection.",
+      "Simple, perfectly proportioned gold stud earrings in 22K, the foundation of any jewellery collection.",
     karat: "22K",
     purity: "916 Hallmark",
     weight: "approx. 3g",
@@ -272,7 +272,7 @@ export const products: Product[] = [
     category: "daily-wear",
     images: ["/images/category-daily.png"], // [PLACEHOLDER IMAGE]
     description:
-      "A single thin bangle in polished 22K gold — stack or wear alone. Considered restraint.",
+      "A single thin bangle in polished 22K gold, stack or wear alone. Considered restraint.",
     karat: "22K",
     purity: "916 Hallmark",
     weight: "approx. 12g",
@@ -281,30 +281,30 @@ export const products: Product[] = [
 ];
 
 // ─── Stores ───────────────────────────────────────────────────
-// [PLACEHOLDER CONTACT] — phone, email, and hours to be confirmed by client
+// [PLACEHOLDER CONTACT], phone, email, and hours to be confirmed by client
 
 export const stores: Store[] = [
   {
     id: "kallara-main",
-    name: "Jaseena Gold — Kallara Main",
-    address: "Main Road, Kallara Junction, Kallara",
+    name: "Jaseena Gold, Kallara Main",
+    address: "QW3Q+9M7, Main Road, Kallara, Vamanapuram - Chittar Rd, Kallara",
     city: "Thiruvananthapuram",
-    state: "Kerala, India",
-    phone: "+91 XXXXX XXXXX", // [PLACEHOLDER CONTACT]
-    email: "info@jaseenagold.com", // [PLACEHOLDER CONTACT]
+    state: "Kerala 695608, India",
+    phone: "+91 472 2860284", 
+    email: "jaseenagoldanddiamonds@gmail.com", 
     hours: "Mon–Sat: 9:30 AM – 8:00 PM | Sun: 10:00 AM – 6:00 PM",
-    mapUrl: "", // [PLACEHOLDER — Google Maps embed to be added]
+    mapUrl: "", // [PLACEHOLDER, Google Maps embed to be added]
   },
   {
     id: "kallara-second",
-    name: "Jaseena Gold — Kallara II",
+    name: "Jaseena Gold, Kallara II",
     address: "Market Road, Kallara",
     city: "Thiruvananthapuram",
     state: "Kerala, India",
-    phone: "+91 XXXXX XXXXX", // [PLACEHOLDER CONTACT]
-    email: "store2@jaseenagold.com", // [PLACEHOLDER CONTACT]
+    phone: "+91 94474 52528",
+    email: "jaseenagoldanddiamonds@gmail.com",
     hours: "Mon–Sat: 10:00 AM – 8:00 PM | Sun: Closed",
-    mapUrl: "", // [PLACEHOLDER — Google Maps embed to be added]
+    mapUrl: "", // [PLACEHOLDER, Google Maps embed to be added]
   },
 ];
 
@@ -338,7 +338,7 @@ export const journalArticles: JournalArticle[] = [
     title: "Understanding Gold Purity: 22K, 24K, and What It Means",
     slug: "understanding-gold-purity",
     excerpt:
-      "Gold purity is not just a number — it determines colour, durability, and value. A plain-language guide to karats and hallmarks.",
+      "Gold purity is not just a number, it determines colour, durability, and value. A plain-language guide to karats and hallmarks.",
     image: "/images/category-gold.png", // [PLACEHOLDER IMAGE]
     date: "2026-04-10",
     readTime: "5 min read",
@@ -349,7 +349,7 @@ export const journalArticles: JournalArticle[] = [
     title: "Since 1975: The Jaseena Story",
     slug: "since-1975-the-jaseena-story",
     excerpt:
-      "From a single family shop in Kallara to a name synonymous with trust — the quiet journey of Jaseena Gold & Diamonds.",
+      "From a single family shop in Kallara to a name synonymous with trust, the quiet journey of Jaseena Gold & Diamonds.",
     image: "/images/heritage-craftsman.png", // [PLACEHOLDER IMAGE]
     date: "2026-03-01",
     readTime: "7 min read",

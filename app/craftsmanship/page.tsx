@@ -61,7 +61,7 @@ export default function CraftsmanshipPage() {
                   <p>
                     Techniques like Nakshi (intricate carving) and Kundan (stone setting) require weeks of
                     focused attention. The gold must be heated, drawn into impossibly thin wires, and
-                    meticulously shaped into filigree — all by hand.
+                    meticulously shaped into filigree, all by hand.
                   </p>
                 </div>
               </div>

@@ -13,7 +13,7 @@ interface AnimatedSectionProps {
 }
 
 /**
- * AnimatedSection — Reusable Framer Motion wrapper for subtle fade-in-on-scroll.
+ * AnimatedSection, Reusable Framer Motion wrapper for subtle fade-in-on-scroll.
  * Wraps any section content with restrained entrance animation.
  */
 export default function AnimatedSection({

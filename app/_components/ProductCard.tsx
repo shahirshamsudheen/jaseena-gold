@@ -12,10 +12,10 @@ interface ProductCardProps {
 }
 
 /**
- * ProductCard — Displays a single product with image, name, description, and "Enquire" CTA.
- * No price shown — all products are price-on-request.
+ * ProductCard, Displays a single product with image, name, description, and "Enquire" CTA.
+ * No price shown, all products are price-on-request.
  *
- * [PLACEHOLDER IMAGE] — Product images to be replaced with real photography.
+ * [PLACEHOLDER IMAGE], Product images to be replaced with real photography.
  */
 export default function ProductCard({ product, index = 0 }: ProductCardProps) {
   return (

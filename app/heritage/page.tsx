@@ -7,7 +7,7 @@ import SectionDivider from "../_components/SectionDivider";
 export const metadata: Metadata = {
   title: "Our Heritage",
   description:
-    "The story of Jaseena Gold & Diamonds — founded by Abdul Basheer in 1975, now carried forward by Abdul Raheem. A heritage of trust from Kallara, Kerala.",
+    "The story of Jaseena Gold & Diamonds, founded by Abdul Basheer in 1975, now carried forward by Abdul Raheem. A heritage of trust from Kallara, Kerala.",
 };
 
 /**
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
  * - Vision: Kerala → India → GCC → Global
  * - Core values
  *
- * [PLACEHOLDER IMAGE] — Founder and son portrait photos to be replaced
+ * [PLACEHOLDER IMAGE], Founder and son portrait photos to be replaced
  */
 export default function HeritagePage() {
   return (
@@ -60,7 +60,7 @@ export default function HeritagePage() {
                   <p>
                     Around 1975, <strong className="text-ink font-medium">Abdul Basheer</strong> opened
                     a modest gold shop in Kallara, a quiet town in Thiruvananthapuram, Kerala. He had no
-                    grand ambitions for a chain — only a conviction that if you gave people honest gold
+                    grand ambitions for a chain, only a conviction that if you gave people honest gold
                     and treated them like family, they would return.
                   </p>
                   <p>
@@ -77,7 +77,7 @@ export default function HeritagePage() {
               {/* Founder Portrait Placeholder */}
               <div className="relative aspect-[3/4] rounded-sm overflow-hidden bg-emerald/5">
                 <Image
-                  src="/images/heritage-craftsman.png" // [PLACEHOLDER IMAGE] — Replace with founder Abdul Basheer portrait
+                  src="/images/heritage-craftsman.png" // [PLACEHOLDER IMAGE], Replace with founder Abdul Basheer portrait
                   alt="Abdul Basheer, founder of Jaseena Gold & Diamonds (placeholder portrait)"
                   fill
                   className="object-cover"
@@ -101,7 +101,7 @@ export default function HeritagePage() {
               {/* Son Portrait Placeholder */}
               <div className="relative aspect-[3/4] rounded-sm overflow-hidden bg-ivory/5 order-2 lg:order-1">
                 <Image
-                  src="/images/craftsmanship-macro.png" // [PLACEHOLDER IMAGE] — Replace with Abdul Raheem portrait
+                  src="/images/craftsmanship-macro.png" // [PLACEHOLDER IMAGE], Replace with Abdul Raheem portrait
                   alt="Abdul Raheem, current lead of Jaseena Gold & Diamonds (placeholder portrait)"
                   fill
                   className="object-cover"
@@ -123,7 +123,7 @@ export default function HeritagePage() {
                   <p>
                     <strong className="text-ivory font-medium">Abdul Raheem</strong>, son of Abdul Basheer,
                     grew up watching his father weigh gold with the same precision he weighed his words.
-                    When he took the helm, he did not rebrand or modernise for its own sake — he deepened
+                    When he took the helm, he did not rebrand or modernise for its own sake, he deepened
                     the roots.
                   </p>
                   <p>
@@ -132,8 +132,8 @@ export default function HeritagePage() {
                     by name.
                   </p>
                   <p>
-                    Now, Jaseena Gold & Diamonds looks beyond Kallara — first to other cities in Kerala,
-                    then across India, and eventually to the GCC and global markets — always carrying
+                    Now, Jaseena Gold & Diamonds looks beyond Kallara, first to other cities in Kerala,
+                    then across India, and eventually to the GCC and global markets, always carrying
                     the intimacy of the original shop.
                   </p>
                 </div>
@@ -159,7 +159,7 @@ export default function HeritagePage() {
               {
                 title: "Trust First",
                 description:
-                  "Trust is not a marketing word for us — it is the foundation of every transaction, every gram, every piece.",
+                  "Trust is not a marketing word for us, it is the foundation of every transaction, every gram, every piece.",
               },
               {
                 title: "Craft",
@@ -174,7 +174,7 @@ export default function HeritagePage() {
               {
                 title: "Continuity",
                 description:
-                  "From father to son, from first customer to thousandth — we value the long relationship over the quick sale.",
+                  "From father to son, from first customer to thousandth, we value the long relationship over the quick sale.",
               },
               {
                 title: "Belonging",

@@ -1,5 +1,5 @@
 /**
- * Jaseena Gold & Diamonds — Type Definitions
+ * Jaseena Gold & Diamonds, Type Definitions
  *
  * These types define the catalog schema for the brand showcase site.
  * Structured to support future e-commerce layer (phase 2) and i18n.
@@ -18,7 +18,7 @@ export interface Product {
   purity?: string;
   /** Weight description, e.g. "approx. 45g" */
   weight?: string;
-  /** Always true for now — no pricing shown */
+  /** Always true for now, no pricing shown */
   priceOnRequest: boolean;
   /** Craftsmanship notes for detail page */
   craftsmanshipNotes?: string;
@@ -41,9 +41,9 @@ export interface Store {
   address: string;
   city: string;
   state: string;
-  /** Placeholder — to be confirmed by client */
+  /** Placeholder, to be confirmed by client */
   phone: string;
-  /** Placeholder — to be confirmed by client */
+  /** Placeholder, to be confirmed by client */
   email: string;
   hours: string;
   /** Google Maps embed URL placeholder */
@@ -67,7 +67,7 @@ export interface EnquiryFormData {
   email: string;
   message: string;
   preferredStore: string;
-  /** Optional — for product-specific enquiries */
+  /** Optional, for product-specific enquiries */
   productId?: string;
 }
 

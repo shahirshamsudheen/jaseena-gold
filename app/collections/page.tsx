@@ -7,12 +7,12 @@ import { categories } from "../_lib/data";
 export const metadata: Metadata = {
   title: "Collections",
   description:
-    "Explore our jewellery collections — Gold, Diamond, Bridal, Antique & Temple, and Daily Wear. Crafted with heritage, designed with restraint.",
+    "Explore our jewellery collections, Gold, Diamond, Bridal, Antique & Temple, and Daily Wear. Crafted with heritage, designed with restraint.",
 };
 
 /**
  * COLLECTIONS LANDING PAGE
- * Category browsing grid — no e-commerce, catalog only.
+ * Category browsing grid, no e-commerce, catalog only.
  */
 export default function CollectionsPage() {
   return (
@@ -27,7 +27,7 @@ export default function CollectionsPage() {
             </h1>
             <hr className="block h-px border-none bg-warm-gold w-16 mx-auto mt-6 mb-6" aria-hidden="true" />
             <p className="text-ivory/70 font-body text-lg leading-relaxed max-w-2xl mx-auto">
-              Each collection is an expression of our heritage — gold and diamonds shaped by
+              Each collection is an expression of our heritage, gold and diamonds shaped by
               hands that understand tradition, crafted for those who value substance over spectacle.
             </p>
           </AnimatedSection>

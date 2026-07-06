@@ -10,10 +10,10 @@ interface CategoryGridProps {
 }
 
 /**
- * CategoryGrid — Responsive grid of category cards.
+ * CategoryGrid, Responsive grid of category cards.
  * 1 col on mobile, 2 on tablet, 3 on desktop.
  *
- * [PLACEHOLDER IMAGE] — Category images to be replaced with real photography.
+ * [PLACEHOLDER IMAGE], Category images to be replaced with real photography.
  */
 export default function CategoryGrid({ categories }: CategoryGridProps) {
   return (

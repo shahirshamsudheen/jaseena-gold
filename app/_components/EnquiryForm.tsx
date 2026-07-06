@@ -12,11 +12,11 @@ interface EnquiryFormProps {
 }
 
 /**
- * EnquiryForm — Contact / Enquiry form.
+ * EnquiryForm, Contact / Enquiry form.
  * Fields: name, phone, email, message, preferred store.
- * No backend — UI only with success state.
+ * No backend, UI only with success state.
  *
- * [PLACEHOLDER] — Connect to a real backend/API when ready.
+ * [PLACEHOLDER], Connect to a real backend/API when ready.
  */
 export default function EnquiryForm({ productId, productName }: EnquiryFormProps) {
   const [formData, setFormData] = useState<EnquiryFormData>({
@@ -50,7 +50,7 @@ export default function EnquiryForm({ productId, productName }: EnquiryFormProps
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (validate()) {
-      // [PLACEHOLDER] — Replace with actual form submission API
+      // [PLACEHOLDER], Replace with actual form submission API
       console.log("Enquiry submitted:", formData);
       setIsSubmitted(true);
     }
