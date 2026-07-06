@@ -1,26 +1,271 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+/*
+ * Jaseena Gold & Diamonds — Design System
+ * Based on Brand Guidelines, Edition 01, 2026
+ *
+ * Colour Ratio Rule: 60% Ivory/Deep Emerald grounds, 30% Emerald, 10% Gold accents
+ * Gold is NEVER used for large fills or gradients on screen.
+ * Maroon is retired — must NOT appear anywhere.
+ */
+
+/* ─── Brand Design Tokens ─────────────────────────────────────── */
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  /* Brand Colors */
+  --color-ivory: #F4EFE4;
+  --color-deep-emerald: #08382A;
+  --color-emerald: #0F5C43;
+  --color-warm-gold: #BF9A46;
+  --color-ink: #171512;
+  --color-muted: #8C8674;
+
+  /* Semantic Colors */
+  --color-background: #F4EFE4;
+  --color-foreground: #171512;
+  --color-primary: #0F5C43;
+  --color-primary-dark: #08382A;
+  --color-accent: #BF9A46;
+
+  /* Typography */
+  --font-display: var(--font-cormorant);
+  --font-body: var(--font-jost);
+
+  /* Spacing / Radius */
+  --radius-sm: 2px;
+  --radius-md: 4px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ─── Base Styles ──────────────────────────────────────────────── */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-ivory);
+  color: var(--color-ink);
+  font-family: var(--font-body), sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* ─── Typography ───────────────────────────────────────────────── */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display), serif;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--color-ink);
+}
+
+h1 {
+  font-size: clamp(2.5rem, 5vw, 3.625rem);
+}
+
+h2 {
+  font-size: clamp(1.5rem, 3vw, 1.875rem);
+}
+
+h3 {
+  font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+}
+
+/* Lead / Pull-quote style */
+.text-lead {
+  font-family: var(--font-display), serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 0.875rem;
+  letter-spacing: 0.02em;
+}
+
+/* Kicker / Label style — small uppercase tracked text */
+.text-kicker {
+  font-family: var(--font-body), sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+}
+
+/* ─── Gold Rule Divider Motif ──────────────────────────────────── */
+
+.gold-rule {
+  display: block;
+  width: 80px;
+  height: 1px;
+  background-color: var(--color-warm-gold);
+  border: none;
+  margin: 2rem auto;
+}
+
+.gold-rule-wide {
+  display: block;
+  width: 120px;
+  height: 1px;
+  background-color: var(--color-warm-gold);
+  border: none;
+  margin: 3rem auto;
+}
+
+.gold-rule-left {
+  display: block;
+  width: 80px;
+  height: 1px;
+  background-color: var(--color-warm-gold);
+  border: none;
+  margin: 1.5rem 0;
+}
+
+/* ─── Component Tokens ─────────────────────────────────────────── */
+
+/* Primary Button: Emerald fill, Ivory text */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.875rem 2rem;
+  background-color: var(--color-emerald);
+  color: var(--color-ivory);
+  font-family: var(--font-body), sans-serif;
+  font-weight: 500;
+  font-size: 0.8125rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  border-radius: var(--radius-md);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  min-height: 44px;
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-deep-emerald);
+  transform: translateY(-1px);
+}
+
+.btn-primary:active {
+  transform: translateY(0);
+}
+
+/* Gold Accent Button — ONE per screen only */
+.btn-accent {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.875rem 2rem;
+  background-color: var(--color-warm-gold);
+  color: var(--color-ivory);
+  font-family: var(--font-body), sans-serif;
+  font-weight: 500;
+  font-size: 0.8125rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  border-radius: var(--radius-md);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  min-height: 44px;
+  text-decoration: none;
+}
+
+.btn-accent:hover {
+  background-color: #a8863c;
+  transform: translateY(-1px);
+}
+
+/* Outline Button */
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.875rem 2rem;
+  background-color: transparent;
+  color: var(--color-emerald);
+  font-family: var(--font-body), sans-serif;
+  font-weight: 500;
+  font-size: 0.8125rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-emerald);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-height: 44px;
+  text-decoration: none;
+}
+
+.btn-outline:hover {
+  background-color: var(--color-emerald);
+  color: var(--color-ivory);
+}
+
+/* ─── Sections ──────────────────────────────────────────────────── */
+
+.section-ivory {
+  background-color: var(--color-ivory);
+  color: var(--color-ink);
+}
+
+.section-dark {
+  background-color: var(--color-deep-emerald);
+  color: var(--color-ivory);
+}
+
+.section-dark h1,
+.section-dark h2,
+.section-dark h3,
+.section-dark h4 {
+  color: var(--color-ivory);
+}
+
+/* ─── Focus / Accessibility ─────────────────────────────────────── */
+
+:focus-visible {
+  outline: 2px solid var(--color-emerald);
+  outline-offset: 2px;
+}
+
+/* Ensure minimum touch targets (44px) */
+a, button, [role="button"], input, select, textarea {
+  min-height: 44px;
+}
+
+input, textarea, select {
+  min-height: 44px;
+}
+
+/* ─── Scrollbar Styling ──────────────────────────────────────────── */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-ivory);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-muted);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-emerald);
+}
+
+/* ─── Selection ──────────────────────────────────────────────────── */
+
+::selection {
+  background-color: var(--color-emerald);
+  color: var(--color-ivory);
 }
