@@ -62,9 +62,9 @@ export default function Header() {
               <Image 
                 src="/images/logo.jpg" 
                 alt="Jaseena Gold & Diamonds"
-                width={120} 
-                height={120}
-                className="w-auto h-12 lg:h-16"
+                width={240} 
+                height={240}
+                className="w-auto h-24 lg:h-32"
                 priority
               />
             </Link>

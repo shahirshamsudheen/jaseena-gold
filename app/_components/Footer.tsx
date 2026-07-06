@@ -31,9 +31,9 @@ export default function Footer() {
               <Image 
                 src="/images/logo.jpg" 
                 alt="Jaseena Gold & Diamonds"
-                width={120} 
-                height={120}
-                className="w-auto h-16 lg:h-20"
+                width={240} 
+                height={240}
+                className="w-auto h-32 lg:h-40"
               />
             </Link>
             <p className="text-lead text-ivory/60 mt-6">
