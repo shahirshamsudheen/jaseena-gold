@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
 import { navigation } from "../_lib/data";
 
 /**
@@ -58,13 +59,14 @@ export default function Header() {
           <div className="flex items-center justify-between h-20 lg:h-24">
             {/* Wordmark / Logo */}
             <Link href="/" className="flex flex-col items-start min-h-0" aria-label="Jaseena Gold & Diamonds, Home">
-              {/* [PLACEHOLDER LOGO], Replace with real logo vector when available */}
-              <span className="font-display text-ivory text-2xl lg:text-3xl font-medium tracking-wide leading-none">
-                JASEENA
-              </span>
-              <span className="font-body text-ivory/70 text-[0.5rem] lg:text-[0.6rem] font-medium tracking-[0.35em] uppercase mt-0.5">
-                Gold & Diamonds
-              </span>
+              <Image 
+                src="/images/logo.jpg" 
+                alt="Jaseena Gold & Diamonds"
+                width={120} 
+                height={120}
+                className="w-auto h-12 lg:h-16"
+                priority
+              />
             </Link>
 
             {/* Desktop Navigation */}

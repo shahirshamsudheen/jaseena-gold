@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import SectionDivider from "./SectionDivider";
 import { navigation } from "../_lib/data";
 
@@ -25,14 +26,15 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8">
           {/* Brand Column */}
           <div className="lg:col-span-1">
-            {/* [PLACEHOLDER LOGO], Replace with real logo when available */}
+            {/* Logo */}
             <Link href="/" className="inline-block min-h-0" aria-label="Jaseena Gold & Diamonds, Home">
-              <span className="font-display text-ivory text-2xl font-medium tracking-wide block leading-none">
-                JASEENA
-              </span>
-              <span className="font-body text-ivory/60 text-[0.5rem] font-medium tracking-[0.35em] uppercase block mt-0.5">
-                Gold & Diamonds
-              </span>
+              <Image 
+                src="/images/logo.jpg" 
+                alt="Jaseena Gold & Diamonds"
+                width={120} 
+                height={120}
+                className="w-auto h-16 lg:h-20"
+              />
             </Link>
             <p className="text-lead text-ivory/60 mt-6">
               Gold that keeps its word.
